@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MainComponent } from './main/main.component';
+
+
+declare function mainJS(): any;
 
 @Component({
   selector: 'app-root',
@@ -7,6 +10,12 @@ import { MainComponent } from './main/main.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'media-superior';
+
+  ngOnInit(): void {
+    setTimeout(() => {
+      mainJS();
+    },50);
+  }
 }
