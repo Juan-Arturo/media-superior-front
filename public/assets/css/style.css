@@ -15,17 +15,17 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
+  background: #ececec;
   color: #444444;
 }
 
 a {
-  color: #4154f1;
+  color: #572772;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: #001aff;
   text-decoration: none;
 }
 
@@ -77,7 +77,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #572772;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -294,7 +294,7 @@ h6 {
 
 .accordion-flush .accordion-button:not(.collapsed) {
   box-shadow: none;
-  color: #4154f1;
+  color: #572772;
 }
 
 .accordion-flush .accordion-body {
@@ -317,7 +317,7 @@ h6 {
 }
 
 .breadcrumb a:hover {
-  color: #51678f;
+  color: #572772;
 }
 
 .breadcrumb .breadcrumb-item::before {
@@ -325,7 +325,7 @@ h6 {
 }
 
 .breadcrumb .active {
-  color: #51678f;
+  color: #572772;
   font-weight: 600;
 }
 
@@ -342,13 +342,13 @@ h6 {
 
 .nav-tabs-bordered .nav-link:hover,
 .nav-tabs-bordered .nav-link:focus {
-  color: #4154f1;
+  color: #572772;
 }
 
 .nav-tabs-bordered .nav-link.active {
   background-color: #fff;
-  color: #4154f1;
-  border-bottom: 2px solid #4154f1;
+  color: #572772;
+  border-bottom: 2px solid #572772;
 }
 
 
@@ -505,7 +505,7 @@ h6 {
 .faq .basic h6 {
   font-size: 18px;
   font-weight: 600;
-  color: #4154f1;
+  color: #572772;
 }
 
 .faq .basic p {
@@ -522,7 +522,7 @@ h6 {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: #4154f1;
+  color: #572772;
 }
 
 .contact .info-box h3 {
@@ -589,7 +589,7 @@ h6 {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #4154f1;
+  border-color: #572772;
 }
 
 .contact .php-email-form input {
@@ -601,7 +601,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: #572772;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -633,7 +633,7 @@ h6 {
 .error-404 h1 {
   font-size: 180px;
   font-weight: 700;
-  color: #4154f1;
+  color: #572772;
   margin-bottom: 0;
   line-height: 150px;
 }
@@ -646,7 +646,7 @@ h6 {
 }
 
 .error-404 .btn {
-  background: #51678f;
+  background: #572772;
   color: #fff;
   padding: 8px 30px;
 }

@@ -34,7 +34,7 @@
   .sidebar-nav .nav-heading {
     font-size: 11px;
     text-transform: uppercase;
-    color: #899bbd;
+    color: #664579;
     font-weight: 600;
     margin: 10px 0 5px 15px;
   }
@@ -44,7 +44,7 @@
     align-items: center;
     font-size: 15px;
     font-weight: 600;
-    color: #4154f1;
+    color: #572772;
     transition: 0.3;
     background: #f6f9ff;
     padding: 10px 15px;
@@ -54,7 +54,7 @@
   .sidebar-nav .nav-link i {
     font-size: 16px;
     margin-right: 10px;
-    color: #4154f1;
+    color: #572772;
   }
   
   .sidebar-nav .nav-link.collapsed {
@@ -67,12 +67,12 @@
   }
   
   .sidebar-nav .nav-link:hover {
-    color: #4154f1;
+    color: #572772;
     background: #f6f9ff;
   }
   
   .sidebar-nav .nav-link:hover i {
-    color: #4154f1;
+    color: #572772;
   }
   
   .sidebar-nav .nav-link .bi-chevron-down {
@@ -110,9 +110,9 @@
   
   .sidebar-nav .nav-content a:hover,
   .sidebar-nav .nav-content a.active {
-    color: #4154f1;
+    color: #572772;
   }
   
   .sidebar-nav .nav-content a.active i {
-    background-color: #4154f1;
+    background-color: #572772;
   }
