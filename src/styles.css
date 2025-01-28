@@ -38,7 +38,16 @@
     background-color: #fff;
   }
   
-  
+  a {
+  color: #572772;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #001aff;
+  text-decoration: none;
+}
+
   @media (max-width: 1199px) {
     .sidebar {
       left: -300px;
