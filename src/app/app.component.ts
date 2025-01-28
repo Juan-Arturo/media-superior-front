@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MainComponent } from './main/main.component';
 
 
-declare function mainJS(): any;
+declare function mainPanelJS(): any;
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     setTimeout(() => {
-      mainJS();
+      mainPanelJS();
     },50);
   }
 }
