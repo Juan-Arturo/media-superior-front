@@ -1,7 +1,7 @@
 
 // ()();
 
-function mainJS() {
+function mainPanelJS() {
   "use strict";
 
   /**
