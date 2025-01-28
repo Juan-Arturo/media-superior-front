@@ -9,7 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-:root {
+/* :root {
   scroll-behavior: smooth;
 }
 
@@ -36,27 +36,13 @@ h4,
 h5,
 h6 {
   font-family: "Nunito", sans-serif;
-}
+} */
 
-/*--------------------------------------------------------------
-# Main
---------------------------------------------------------------*/
-#main {
-  margin-top: 60px;
-  padding: 20px 30px;
-  transition: all 0.3s;
-}
-
-@media (max-width: 1199px) {
-  #main {
-    padding: 20px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Page Title
 --------------------------------------------------------------*/
-.pagetitle {
+/* .pagetitle {
   margin-bottom: 10px;
 }
 
@@ -65,12 +51,12 @@ h6 {
   margin-bottom: 0;
   font-weight: 600;
   color: #012970;
-}
+} */
 
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+/* .back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -98,13 +84,13 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Override some default Bootstrap stylings
 --------------------------------------------------------------*/
 /* Dropdown menus */
-.dropdown-menu {
+/* .dropdown-menu {
   border-radius: 4px;
   padding: 10px 0;
   animation-name: dropdown-animate;
@@ -178,10 +164,10 @@ h6 {
   0% {
     opacity: 0;
   }
-}
+} */
 
 /* Light Backgrounds */
-.bg-primary-light {
+/* .bg-primary-light {
   background-color: #cfe2ff;
   border-color: #cfe2ff;
 }
@@ -214,10 +200,10 @@ h6 {
 .bg-dark-light {
   background-color: #d3d3d4;
   border-color: #d3d3d4;
-}
+} */
 
 /* Card */
-.card {
+/* .card {
   margin-bottom: 30px;
   border: none;
   border-radius: 5px;
@@ -252,27 +238,27 @@ h6 {
 
 .card-img-overlay {
   background-color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* Alerts */
-.alert-heading {
+/* .alert-heading {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-}
+} */
 
 /* Close Button */
-.btn-close {
+/* .btn-close {
   background-size: 25%;
 }
 
 .btn-close:focus {
   outline: 0;
   box-shadow: none;
-}
+} */
 
 /* Accordion */
-.accordion-item {
+/* .accordion-item {
   border: 1px solid #ebeef4;
 }
 
@@ -301,10 +287,10 @@ h6 {
   padding: 0 0 15px 0;
   color: #3e4f6f;
   font-size: 15px;
-}
+} */
 
 /* Breadcrumbs */
-.breadcrumb {
+/* .breadcrumb {
   font-size: 14px;
   font-family: "Nunito", sans-serif;
   color: #899bbd;
@@ -327,10 +313,10 @@ h6 {
 .breadcrumb .active {
   color: #572772;
   font-weight: 600;
-}
+} */
 
 /* Bordered Tabs */
-.nav-tabs-bordered {
+/* .nav-tabs-bordered {
   border-bottom: 2px solid #ebeef4;
 }
 
@@ -349,70 +335,16 @@ h6 {
   background-color: #fff;
   color: #572772;
   border-bottom: 2px solid #572772;
-}
+} */
 
 
 
-/*--------------------------------------------------------------
-# Sidebar
---------------------------------------------------------------*/
-
-
-.sidebar {
-  position: fixed;
-  top: 60px;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 996;
-  transition: all 0.3s;
-  padding: 20px;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #aab7cf transparent;
-  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
-}
-
-
-@media (max-width: 1199px) {
-  .sidebar {
-    left: -300px;
-  }
-}
-
-
-@media (min-width: 1200px) {
-
-  #main,
-  #footer {
-    margin-left: 300px;
-  }
-}
-
-@media (max-width: 1199px) {
-  .toggle-sidebar .sidebar {
-    left: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-
-  .toggle-sidebar #main,
-  .toggle-sidebar #footer {
-    margin-left: 0;
-  }
-
-  .toggle-sidebar .sidebar {
-    left: -300px;
-  }
-}
 
 
 /*--------------------------------------------------------------
 # Icons list page
 --------------------------------------------------------------*/
-.iconslist {
+/* .iconslist {
   display: grid;
   max-width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -443,12 +375,12 @@ h6 {
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #666;
-}
+} */
 
 /*--------------------------------------------------------------
 # Profie Page
 --------------------------------------------------------------*/
-.profile .profile-card img {
+/* .profile .profile-card img {
   max-width: 120px;
 }
 
@@ -497,12 +429,12 @@ h6 {
 
 .profile .profile-edit img {
   max-width: 120px;
-}
+} */
 
 /*--------------------------------------------------------------
 # F.A.Q Page
 --------------------------------------------------------------*/
-.faq .basic h6 {
+/* .faq .basic h6 {
   font-size: 18px;
   font-weight: 600;
   color: #572772;
@@ -510,12 +442,12 @@ h6 {
 
 .faq .basic p {
   color: #6980aa;
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info-box {
+/* .contact .info-box {
   padding: 28px 30px;
 }
 
@@ -621,12 +553,12 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Error 404
 --------------------------------------------------------------*/
-.error-404 {
+/* .error-404 {
   padding: 30px;
 }
 
@@ -659,5 +591,5 @@ h6 {
   .error-404 img {
     max-width: 50%;
   }
-}
+} */
 
