@@ -34,7 +34,7 @@ h6 {
 /*--------------------------------------------------------------
 # Page Title
 --------------------------------------------------------------*/
-/* .pagetitle {
+.pagetitle {
   margin-bottom: 10px;
 }
 
@@ -42,8 +42,8 @@ h6 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
-  color: #012970;
-} */
+  color: #572772;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -82,7 +82,7 @@ h6 {
 # Override some default Bootstrap stylings
 --------------------------------------------------------------*/
 /* Dropdown menus */
-/* .dropdown-menu {
+.dropdown-menu {
   border-radius: 4px;
   padding: 10px 0;
   animation-name: dropdown-animate;
@@ -156,7 +156,7 @@ h6 {
   0% {
     opacity: 0;
   }
-} */
+}
 
 /* Light Backgrounds */
 /* .bg-primary-light {
@@ -195,7 +195,7 @@ h6 {
 } */
 
 /* Card */
-/* .card {
+.card {
   margin-bottom: 30px;
   border: none;
   border-radius: 5px;
@@ -230,7 +230,7 @@ h6 {
 
 .card-img-overlay {
   background-color: rgba(255, 255, 255, 0.6);
-} */
+}
 
 /* Alerts */
 /* .alert-heading {
@@ -282,7 +282,7 @@ h6 {
 } */
 
 /* Breadcrumbs */
-/* .breadcrumb {
+.breadcrumb {
   font-size: 14px;
   font-family: "Nunito", sans-serif;
   color: #899bbd;
@@ -305,10 +305,10 @@ h6 {
 .breadcrumb .active {
   color: #572772;
   font-weight: 600;
-} */
+}
 
 /* Bordered Tabs */
-/* .nav-tabs-bordered {
+.nav-tabs-bordered {
   border-bottom: 2px solid #ebeef4;
 }
 
@@ -327,7 +327,7 @@ h6 {
   background-color: #fff;
   color: #572772;
   border-bottom: 2px solid #572772;
-} */
+}
 
 
 
@@ -372,7 +372,7 @@ h6 {
 /*--------------------------------------------------------------
 # Profie Page
 --------------------------------------------------------------*/
-/* .profile .profile-card img {
+.profile .profile-card img {
   max-width: 120px;
 }
 
@@ -421,7 +421,7 @@ h6 {
 
 .profile .profile-edit img {
   max-width: 120px;
-} */
+}
 
 /*--------------------------------------------------------------
 # F.A.Q Page
@@ -584,4 +584,94 @@ h6 {
     max-width: 50%;
   }
 } */
+
+ .nav-item {
+  margin-bottom: 5px;
+}
+
+ .nav-heading {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #899bbd;
+  font-weight: 600;
+  margin: 10px 0 5px 15px;
+}
+
+ .nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4154f1;
+  transition: 0.3;
+  background: #f6f9ff;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+ .nav-link i {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #4154f1;
+}
+
+ .nav-link.collapsed {
+  color: #012970;
+  background: #fff;
+}
+
+ .nav-link.collapsed i {
+  color: #899bbd;
+}
+
+ .nav-link:hover {
+  color: #4154f1;
+  background: #f6f9ff;
+}
+
+ .nav-link:hover i {
+  color: #4154f1;
+}
+
+ .nav-link .bi-chevron-down {
+  margin-right: 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+ .nav-link:not(.collapsed) .bi-chevron-down {
+  transform: rotate(180deg);
+}
+
+ .nav-content {
+  padding: 5px 0 0 0;
+  margin: 0;
+  list-style: none;
+}
+
+ .nav-content a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #012970;
+  transition: 0.3;
+  padding: 10px 0 10px 40px;
+  transition: 0.3s;
+}
+
+ .nav-content a i {
+  font-size: 6px;
+  margin-right: 8px;
+  line-height: 0;
+  border-radius: 50%;
+}
+
+ .nav-content a:hover,
+ .nav-content a.active {
+  color: #4154f1;
+}
+
+ .nav-content a.active i {
+  background-color: #4154f1;
+}
 
